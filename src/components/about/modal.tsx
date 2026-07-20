@@ -1,3 +1,6 @@
+import { ChevronRight } from "lucide-react";
+import { X } from "lucide-react";
+
 export default function AboutModal() {
   return (
     <>
@@ -12,14 +15,14 @@ export default function AboutModal() {
           }
         }}
       >
-        Read more
+        Read more<ChevronRight size={16}/>
       </button>
       <dialog id="about_modal" className="modal">
         <div className="modal-box">
           <form method="dialog">
             {/* if there is a button in form, it will close the modal */}
             <button className="btn btn-sm btn-circle absolute right-2 top-2 shadow-lg">
-              ✕
+              <X size={16}/>
             </button>
           </form>
           <h3 className="text-2xl md:text-4xl">About me</h3>
