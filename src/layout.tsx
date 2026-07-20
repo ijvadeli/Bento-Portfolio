@@ -2,6 +2,8 @@ import HeroSection from "./components/hero";
 import Avatar from "./components/avatar";
 import About from "./components/about/about";
 
+import Socials from "./components/socials";
+
 export default function Layout() {
   return (
     <main className="flex flex-col items-center justify-center h-screen w-screen bg-base-200">
@@ -21,7 +23,9 @@ export default function Layout() {
         {/* Projects */}
         <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-2"></div>
         {/* Socials */}
-        <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-1"></div>
+        <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-1">
+          <Socials/>
+        </div>
         {/* Time */}
         <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-1"></div>
         {/* Tech-Stack */}
