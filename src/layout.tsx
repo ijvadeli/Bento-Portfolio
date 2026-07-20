@@ -3,6 +3,7 @@ import Avatar from "./components/avatar";
 import About from "./components/about/about";
 
 import Socials from "./components/socials";
+import Time from "./components/local-time/time";
 
 export default function Layout() {
   return (
@@ -27,7 +28,9 @@ export default function Layout() {
           <Socials/>
         </div>
         {/* Time */}
-        <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-1"></div>
+        <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-2 md:row-span-1">
+          <Time/>
+        </div>
         {/* Tech-Stack */}
         <div className="bg-base-100 rounded-2xl shadow-lg  md:col-span-3 md:row-span-2"></div>
         {/* Services + Contact */}
