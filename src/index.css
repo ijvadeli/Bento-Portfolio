@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 @import "tailwindcss";
+@plugin "daisyui" {
+  themes: light --default, dark --prefersdark, bumblebee;
+}
 
 body {
     font-family: "Inter", sans-serif;
-}
-
-@theme {
-    --color-primary: oklch(0% 0 0);
-    --color-secondary: oklch(57% 0.009 241.8);
 }
 
 h1, h2, h3, h4, h5, h6 {
