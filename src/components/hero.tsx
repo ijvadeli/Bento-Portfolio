@@ -6,7 +6,7 @@ export default function HeroSection() {
         I'm a Software <span className="text-base-content">Developer</span> &{" "}
         <span className="text-base-content">Designer</span>
         <br />
-        working at <span className="text-primary-content">Home.</span>
+        working at <span className="text-secondary-content">Home.</span>
       </h2>
     </header>
   );

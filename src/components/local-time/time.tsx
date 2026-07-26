@@ -11,11 +11,11 @@ export default function Time() {
         </div>{" "}
         Local Time
       </div>
-      <h3 className="text-3xl">
+      <h1 className="text-3xl">
         <TimeProvider>
           <LocalTime timezone="Europe/Amsterdam" />
         </TimeProvider>
-      </h3>
+      </h1>
     </div>
   );
 }
